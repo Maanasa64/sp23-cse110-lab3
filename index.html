@@ -55,8 +55,15 @@
         <input type="text" id="fname" name="fname" value=""><br>
         <label for="lname">Last name:</label><br>
         <input type="text" id="lname" name="lname" value=""><br><br>
-        <label for="feedback"></label>
-        <textarea id="feedback" name="feedback" rows="4" cols="50">Please enter your feedback here.</textarea><br>
+        <label for="sex">Choose your sex from the list:</label>
+        <input list="sex" name="sex" id="sex">
+        <datalist id="sex">
+          <option value="Male">
+          <option value="Female">
+          <option value="Other/Prefer not to disclose">
+        </datalist>
+        <label for="feedback"></label><br>
+        <textarea id="feedback" name="feedback" rows="4" cols="50">Please enter your feedback here.</textarea><br><br>
         <button type="button">Submit</button>
       </fieldset>
     </form> 
