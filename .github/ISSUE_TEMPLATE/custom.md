@@ -2,8 +2,8 @@
 name: Custom issue template
 about: Video Unavailable
 title: "[DESIGN]"
-labels: ''
-assignees: ''
+labels: design
+assignees: Maanasa64
 
 ---
 
