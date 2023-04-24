@@ -1,0 +1,127 @@
+h1 {
+  color: #FFA07A;
+}
+
+p {
+  color: #333;
+}
+
+body {
+  background-color: #F9F9F9;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid #DDD;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.long-margin {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.short-margin {
+  margin: 20px 40px;
+}
+
+.auto-margin {
+  margin: auto;
+}
+
+.long-padding {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.short-padding {
+  padding: 10px 20px;
+}
+
+.box {
+  border-style: solid;
+  border-color: #DDD;
+  border-width: 1px;
+  border-radius: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.inline-block {
+  display: inline-block;
+  width: 50%;
+}
+
+.block {
+  display: block;
+  width: 100%;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.button:hover {
+  background-color: #DDD;
+}
+
+.button:active {
+  background-color: #AAA;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-item {
+  flex-basis: 30%;
+  margin: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
